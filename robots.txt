@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+# Pages non indexées
+Disallow: /login/
+Disallow: /register/
+
+# Sitemap
+Sitemap: https://developpeurfreelanceparis.dev/sitemap.xml

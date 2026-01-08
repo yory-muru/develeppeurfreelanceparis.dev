@@ -1,0 +1,892 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Développeur freelance Paris : trouvez les meilleurs développeurs web freelances à Paris ou proposez vos services. Plateforme de mise en relation pour freelances et clients."
+    />
+    <meta
+      name="keywords"
+      content="développeur freelance Paris, développeur web Paris, freelance informatique Paris, développeur indépendant Paris"
+    />
+    <meta name="author" content="Développeur Freelance Paris" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://developpeurfreelanceparis.dev/" />
+
+    <title>
+      Développeur Freelance Paris | Trouvez ou Devenez Freelance Dev
+    </title>
+
+    <meta
+      property="og:title"
+      content="Développeur Freelance Paris | Plateforme de Mise en Relation"
+    />
+    <meta
+      property="og:description"
+      content="Trouvez les meilleurs développeurs freelances à Paris ou proposez vos services de développement web."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://developpeurfreelanceparis.dev/" />
+    <meta property="og:locale" content="fr_FR" />
+    <meta property="og:site_name" content="Développeur Freelance Paris" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Développeur Freelance Paris" />
+    <meta
+      name="twitter:description"
+      content="Plateforme de mise en relation entre développeurs freelances et clients à Paris."
+    />
+
+    <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg" />
+
+    <link rel="stylesheet" href="/css/styles.css" />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Développeur Freelance Paris",
+        "url": "https://developpeurfreelanceparis.dev",
+        "logo": "https://developpeurfreelanceparis.dev/assets/logo.svg",
+        "description": "Plateforme de mise en relation entre développeurs freelances et clients à Paris",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Paris",
+          "addressCountry": "FR"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "contactType": "customer service",
+          "email": "contact@developpeurfreelanceparis.dev"
+        }
+      }
+    </script>
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Comment trouver un développeur freelance à Paris ?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Utilisez notre plateforme pour parcourir les profils de développeurs freelances à Paris. Filtrez par compétences, tarif et disponibilité, puis contactez directement les profils qui correspondent à vos besoins."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Quel est le tarif journalier d'un développeur freelance à Paris ?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Le TJM d'un développeur freelance à Paris varie entre 350€ et 800€ selon l'expérience et les technologies. Un développeur junior facture environ 350-450€/jour, un confirmé 450-600€/jour, et un senior 600-800€/jour."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Comment devenir développeur freelance à Paris ?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Pour devenir développeur freelance à Paris : 1) Choisissez votre statut juridique (micro-entreprise, SASU, portage), 2) Définissez vos compétences et tarifs, 3) Créez votre portfolio, 4) Inscrivez-vous sur notre plateforme pour trouver vos premières missions."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Quelles sont les technologies les plus demandées pour un freelance à Paris ?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Les technologies les plus demandées à Paris sont : React, Vue.js, Node.js, Python, PHP/Symfony, Java, et les compétences DevOps. La demande pour les développeurs full-stack et les experts cloud est particulièrement forte."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Pourquoi choisir un développeur freelance plutôt qu'une agence ?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Un développeur freelance offre plus de flexibilité, une relation directe sans intermédiaire, des tarifs souvent plus compétitifs, et une expertise spécialisée. Idéal pour les projets nécessitant agilité et expertise technique pointue."
+            }
+          }
+        ]
+      }
+    </script>
+  </head>
+  <body>
+    <header class="header" role="banner">
+      <nav
+        class="nav container"
+        role="navigation"
+        aria-label="Navigation principale"
+      >
+        <a
+          href="/"
+          class="logo"
+          aria-label="Accueil Développeur Freelance Paris"
+        >
+          <span class="logo-icon">{ }</span>
+          <span class="logo-text"><strong>Dev Freelance Paris</strong></span>
+        </a>
+
+        <button class="nav-toggle" aria-label="Menu" aria-expanded="false">
+          <span class="hamburger"></span>
+        </button>
+
+        <ul class="nav-menu">
+          <li><a href="/" class="nav-link active">Accueil</a></li>
+          <li><a href="/freelances/" class="nav-link">Freelances</a></li>
+          <li><a href="/clients/" class="nav-link">Clients</a></li>
+          <li><a href="/blog/" class="nav-link">Blog</a></li>
+          <li>
+            <a href="/login/" class="nav-link nav-link--outline">Connexion</a>
+          </li>
+          <li>
+            <a href="/register/" class="nav-link nav-link--primary"
+              >Inscription</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main role="main">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="container">
+          <div class="hero-content">
+            <h1 id="hero-title" class="hero-title">
+              <strong>Développeur Freelance Paris</strong>
+            </h1>
+            <p class="hero-subtitle">
+              La plateforme qui connecte les
+              <strong>meilleurs développeurs freelances</strong> de Paris avec
+              les entreprises, startups et agences qui ont besoin de talents
+              tech.
+            </p>
+            <div class="hero-cta">
+              <a href="/freelances/" class="btn btn-primary"
+                >Je suis freelance</a
+              >
+              <a href="/clients/" class="btn btn-secondary"
+                >Je cherche un freelance</a
+              >
+            </div>
+            <div class="hero-stats">
+              <div class="stat">
+                <span class="stat-number">500+</span>
+                <span class="stat-label">Développeurs</span>
+              </div>
+              <div class="stat">
+                <span class="stat-number">1200+</span>
+                <span class="stat-label">Missions</span>
+              </div>
+              <div class="stat">
+                <span class="stat-number">98%</span>
+                <span class="stat-label">Satisfaction</span>
+              </div>
+            </div>
+          </div>
+          <div class="hero-visual">
+            <div class="code-window">
+              <div class="code-header">
+                <span class="dot red"></span>
+                <span class="dot yellow"></span>
+                <span class="dot green"></span>
+              </div>
+              <pre
+                class="code-content"
+              ><code><span class="keyword">const</span> freelance = {
+  <span class="property">ville</span>: <span class="string">"Paris"</span>,
+  <span class="property">disponible</span>: <span class="boolean">true</span>,
+  <span class="property">skills</span>: [<span class="string">"React"</span>, <span class="string">"Node"</span>, <span class="string">"Python"</span>],
+  <span class="property">mission</span>: <span class="string">"Votre projet"</span>
+};</code></pre>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="how-it-works" aria-labelledby="how-title">
+        <div class="container">
+          <h2 id="how-title" class="section-title">Comment ça marche ?</h2>
+          <p class="section-subtitle">
+            Trouvez votre développeur freelance à Paris en 3 étapes simples
+          </p>
+
+          <div class="steps-grid">
+            <article class="step">
+              <div class="step-number">1</div>
+              <div class="step-icon">📝</div>
+              <h3>Décrivez votre projet</h3>
+              <p>
+                Publiez votre besoin : site web, application mobile, API,
+                maintenance... Précisez vos technologies et votre budget.
+              </p>
+            </article>
+
+            <article class="step">
+              <div class="step-number">2</div>
+              <div class="step-icon">🔍</div>
+              <h3>Recevez des profils</h3>
+              <p>
+                Les développeurs freelances parisiens qualifiés vous contactent.
+                Consultez leurs portfolios et avis clients.
+              </p>
+            </article>
+
+            <article class="step">
+              <div class="step-number">3</div>
+              <div class="step-icon">🤝</div>
+              <h3>Collaborez</h3>
+              <p>
+                Choisissez le freelance idéal et démarrez votre projet. Paiement
+                sécurisé et suivi simplifié.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="freelances-section" aria-labelledby="freelances-title">
+        <div class="container">
+          <div class="split-content">
+            <div class="split-text">
+              <h2 id="freelances-title">
+                Vous êtes développeur freelance à Paris ?
+              </h2>
+              <p>
+                Rejoignez la communauté des
+                <strong>développeurs freelances parisiens</strong> et accédez
+                aux meilleures missions tech de la capitale.
+              </p>
+              <ul class="benefits-list">
+                <li>✓ Missions qualifiées auprès de clients vérifiés</li>
+                <li>✓ Tarifs respectés (TJM 400€ - 800€)</li>
+                <li>✓ Visibilité auprès des entreprises parisiennes</li>
+                <li>✓ Réseau de développeurs pour collaborations</li>
+                <li>✓ Accompagnement administratif et juridique</li>
+              </ul>
+              <a href="/freelances/" class="btn btn-primary"
+                >Découvrir les avantages freelance</a
+              >
+            </div>
+            <div class="split-visual">
+              <div class="profile-cards">
+                <div class="profile-card">
+                  <div class="profile-avatar">👨‍💻</div>
+                  <div class="profile-info">
+                    <h4>Thomas D.</h4>
+                    <p>Développeur React/Node.js</p>
+                    <span class="profile-rate">550€/jour</span>
+                  </div>
+                </div>
+                <div class="profile-card">
+                  <div class="profile-avatar">👩‍💻</div>
+                  <div class="profile-info">
+                    <h4>Marie L.</h4>
+                    <p>Développeuse Full-Stack Python</p>
+                    <span class="profile-rate">600€/jour</span>
+                  </div>
+                </div>
+                <div class="profile-card">
+                  <div class="profile-avatar">🧑‍💻</div>
+                  <div class="profile-info">
+                    <h4>Alexandre M.</h4>
+                    <p>Expert DevOps / Cloud</p>
+                    <span class="profile-rate">700€/jour</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="clients-section" aria-labelledby="clients-title">
+        <div class="container">
+          <div class="split-content reverse">
+            <div class="split-text">
+              <h2 id="clients-title">
+                Vous cherchez un développeur freelance à Paris ?
+              </h2>
+              <p>
+                Trouvez rapidement le
+                <strong>développeur web freelance</strong> parfait pour votre
+                projet parmi nos talents parisiens.
+              </p>
+              <ul class="benefits-list">
+                <li>✓ Profils vérifiés et évalués par la communauté</li>
+                <li>✓ Développeurs spécialisés par technologie</li>
+                <li>✓ Réponse sous 48h garantie</li>
+                <li>✓ Devis gratuit et sans engagement</li>
+                <li>✓ Contrat sécurisé et facturation simplifiée</li>
+              </ul>
+              <a href="/clients/" class="btn btn-secondary"
+                >Trouver mon développeur</a
+              >
+            </div>
+            <div class="split-visual">
+              <div class="tech-cloud">
+                <span class="tech-tag large">React</span>
+                <span class="tech-tag">Vue.js</span>
+                <span class="tech-tag large">Node.js</span>
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">PHP</span>
+                <span class="tech-tag large">Symfony</span>
+                <span class="tech-tag">Laravel</span>
+                <span class="tech-tag">Java</span>
+                <span class="tech-tag large">TypeScript</span>
+                <span class="tech-tag">Angular</span>
+                <span class="tech-tag">AWS</span>
+                <span class="tech-tag large">Docker</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="projects-section" aria-labelledby="projects-title">
+        <div class="container">
+          <h2 id="projects-title" class="section-title">
+            Projets réalisés par nos freelances
+          </h2>
+          <p class="section-subtitle">
+            Découvrez quelques missions accomplies par des développeurs
+            freelances à Paris
+          </p>
+
+          <div class="projects-grid">
+            <article class="project-card">
+              <div
+                class="project-image"
+                style="
+                  background: linear-gradient(
+                      135deg,
+                      rgba(102, 126, 234, 0.7) 0%,
+                      rgba(118, 75, 162, 0.7) 100%
+                    ),
+                    url('https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600&q=80')
+                      center/cover;
+                "
+              >
+                <span class="project-type">E-commerce</span>
+              </div>
+              <div class="project-content">
+                <h3>Refonte marketplace mode</h3>
+                <p>
+                  Migration Magento vers Shopify Plus pour une marque de luxe
+                  parisienne. +40% de conversion.
+                </p>
+                <div class="project-meta">
+                  <span class="project-tech">Shopify, React, Node.js</span>
+                  <span class="project-duration">3 mois</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <div
+                class="project-image"
+                style="
+                  background: linear-gradient(
+                      135deg,
+                      rgba(240, 147, 251, 0.7) 0%,
+                      rgba(245, 87, 108, 0.7) 100%
+                    ),
+                    url('https://images.unsplash.com/photo-1551434678-e076c223a692?w=600&q=80')
+                      center/cover;
+                "
+              >
+                <span class="project-type">Application Web</span>
+              </div>
+              <div class="project-content">
+                <h3>Plateforme RH SaaS</h3>
+                <p>
+                  Développement d'une solution de gestion RH pour startup
+                  fintech. 10 000 utilisateurs actifs.
+                </p>
+                <div class="project-meta">
+                  <span class="project-tech">Vue.js, Python, PostgreSQL</span>
+                  <span class="project-duration">6 mois</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <div
+                class="project-image"
+                style="
+                  background: linear-gradient(
+                      135deg,
+                      rgba(79, 172, 254, 0.7) 0%,
+                      rgba(0, 242, 254, 0.7) 100%
+                    ),
+                    url('https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=600&q=80')
+                      center/cover;
+                "
+              >
+                <span class="project-type">API & Backend</span>
+              </div>
+              <div class="project-content">
+                <h3>API bancaire temps réel</h3>
+                <p>
+                  Architecture microservices pour néobanque. 1M de
+                  transactions/jour traitées.
+                </p>
+                <div class="project-meta">
+                  <span class="project-tech">Go, Kubernetes, Redis</span>
+                  <span class="project-duration">8 mois</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <div
+                class="project-image"
+                style="
+                  background: linear-gradient(
+                      135deg,
+                      rgba(67, 233, 123, 0.7) 0%,
+                      rgba(56, 249, 215, 0.7) 100%
+                    ),
+                    url('https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=600&q=80')
+                      center/cover;
+                "
+              >
+                <span class="project-type">Mobile</span>
+              </div>
+              <div class="project-content">
+                <h3>App livraison urbaine</h3>
+                <p>
+                  Application iOS/Android pour startup de livraison écologique à
+                  Paris. 50K téléchargements.
+                </p>
+                <div class="project-meta">
+                  <span class="project-tech">React Native, Firebase</span>
+                  <span class="project-duration">4 mois</span>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="blog-section" aria-labelledby="blog-title">
+        <div class="container">
+          <h2 id="blog-title" class="section-title">Blog & Ressources</h2>
+          <p class="section-subtitle">
+            Conseils pour développeurs freelances et clients à Paris
+          </p>
+
+          <div class="blog-grid">
+            <article class="blog-card">
+              <div
+                class="blog-image"
+                style="
+                  background: linear-gradient(
+                      135deg,
+                      rgba(37, 99, 235, 0.6) 0%,
+                      rgba(30, 58, 95, 0.6) 100%
+                    ),
+                    url('https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=500&q=80')
+                      center/cover;
+                "
+              >
+                <span class="blog-category">Guide</span>
+              </div>
+              <div class="blog-content">
+                <time datetime="2026-01-02">2 janvier 2026</time>
+                <h3>
+                  <a
+                    href="/blog/devenir-developpeur-freelance-paris-guide-complet/"
+                    >Devenir développeur freelance à Paris : le guide complet
+                    2026</a
+                  >
+                </h3>
+                <p>
+                  Statut juridique, tarifs, recherche de clients... Tout ce
+                  qu'il faut savoir pour se lancer.
+                </p>
+              </div>
+            </article>
+
+            <article class="blog-card">
+              <div
+                class="blog-image"
+                style="
+                  background: linear-gradient(
+                      135deg,
+                      rgba(16, 185, 129, 0.6) 0%,
+                      rgba(5, 150, 105, 0.6) 100%
+                    ),
+                    url('https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=500&q=80')
+                      center/cover;
+                "
+              >
+                <span class="blog-category">Tarifs</span>
+              </div>
+              <div class="blog-content">
+                <time datetime="2025-12-28">28 décembre 2025</time>
+                <h3>
+                  <a href="/blog/tjm-developpeur-freelance-paris/"
+                    >TJM développeur freelance Paris : grille tarifaire 2026</a
+                  >
+                </h3>
+                <p>
+                  Combien facturer selon votre expérience et vos technologies ?
+                  Benchmark complet.
+                </p>
+              </div>
+            </article>
+
+            <article class="blog-card">
+              <div
+                class="blog-image"
+                style="
+                  background: linear-gradient(
+                      135deg,
+                      rgba(139, 92, 246, 0.6) 0%,
+                      rgba(109, 40, 217, 0.6) 100%
+                    ),
+                    url('https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=500&q=80')
+                      center/cover;
+                "
+              >
+                <span class="blog-category">Recrutement</span>
+              </div>
+              <div class="blog-content">
+                <time datetime="2025-12-20">20 décembre 2025</time>
+                <h3>
+                  <a href="/blog/recruter-developpeur-freelance-paris/"
+                    >Comment recruter un développeur freelance à Paris ?</a
+                  >
+                </h3>
+                <p>
+                  Les bonnes pratiques pour trouver et évaluer un freelance pour
+                  votre projet tech.
+                </p>
+              </div>
+            </article>
+          </div>
+
+          <div class="blog-cta">
+            <a href="/blog/" class="btn btn-outline">Voir tous les articles</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact-section" aria-labelledby="contact-title">
+        <div class="container">
+          <div class="contact-wrapper">
+            <div class="contact-info">
+              <h2 id="contact-title">
+                Lancez votre projet avec un développeur freelance à Paris
+              </h2>
+              <p>
+                Que vous soyez freelance à la recherche de missions ou
+                entreprise en quête de talents, nous sommes là pour vous aider.
+              </p>
+              <ul class="contact-features">
+                <li>📧 Réponse sous 24h</li>
+                <li>📞 Accompagnement personnalisé</li>
+                <li>🔒 Données sécurisées</li>
+              </ul>
+            </div>
+            <form
+              class="contact-form"
+              action="#"
+              method="POST"
+              id="contact-form"
+            >
+              <div class="form-group">
+                <label for="contact-type">Je suis</label>
+                <select id="contact-type" name="type" required>
+                  <option value="">Sélectionnez...</option>
+                  <option value="freelance">Développeur freelance</option>
+                  <option value="client">Client / Entreprise</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="contact-name">Nom complet</label>
+                <input
+                  type="text"
+                  id="contact-name"
+                  name="name"
+                  required
+                  placeholder="Jean Dupont"
+                />
+              </div>
+              <div class="form-group">
+                <label for="contact-email">Email</label>
+                <input
+                  type="email"
+                  id="contact-email"
+                  name="email"
+                  required
+                  placeholder="jean@exemple.com"
+                />
+              </div>
+              <div class="form-group">
+                <label for="contact-message">Message</label>
+                <textarea
+                  id="contact-message"
+                  name="message"
+                  rows="4"
+                  required
+                  placeholder="Décrivez votre projet ou vos compétences..."
+                ></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary btn-full">
+                Envoyer ma demande
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <section class="faq-section" aria-labelledby="faq-title">
+        <div class="container">
+          <h2 id="faq-title" class="section-title">Questions fréquentes</h2>
+          <p class="section-subtitle">
+            Tout savoir sur les développeurs freelances à Paris
+          </p>
+
+          <div class="faq-list">
+            <details class="faq-item">
+              <summary class="faq-question">
+                <h3>Comment trouver un développeur freelance à Paris ?</h3>
+              </summary>
+              <div class="faq-answer">
+                <p>
+                  Utilisez notre plateforme pour parcourir les profils de
+                  développeurs freelances à Paris. Filtrez par compétences,
+                  tarif et disponibilité, puis contactez directement les profils
+                  qui correspondent à vos besoins. Vous pouvez également publier
+                  une mission et recevoir des propositions de freelances
+                  qualifiés.
+                </p>
+              </div>
+            </details>
+
+            <details class="faq-item">
+              <summary class="faq-question">
+                <h3>
+                  Quel est le tarif journalier d'un développeur freelance à
+                  Paris ?
+                </h3>
+              </summary>
+              <div class="faq-answer">
+                <p>
+                  Le TJM (Taux Journalier Moyen) d'un développeur freelance à
+                  Paris varie entre 350€ et 800€ selon l'expérience et les
+                  technologies maîtrisées :
+                </p>
+                <ul>
+                  <li><strong>Junior (0-2 ans)</strong> : 350€ - 450€/jour</li>
+                  <li>
+                    <strong>Confirmé (3-5 ans)</strong> : 450€ - 600€/jour
+                  </li>
+                  <li><strong>Senior (5+ ans)</strong> : 600€ - 800€/jour</li>
+                  <li><strong>Expert/Architecte</strong> : 800€+/jour</li>
+                </ul>
+              </div>
+            </details>
+
+            <details class="faq-item">
+              <summary class="faq-question">
+                <h3>Comment devenir développeur freelance à Paris ?</h3>
+              </summary>
+              <div class="faq-answer">
+                <p>
+                  Pour devenir développeur freelance à Paris, suivez ces étapes
+                  :
+                </p>
+                <ol>
+                  <li>
+                    Choisissez votre statut juridique (micro-entreprise, SASU,
+                    portage salarial)
+                  </li>
+                  <li>
+                    Définissez vos compétences clés et votre positionnement
+                  </li>
+                  <li>Fixez vos tarifs en fonction du marché parisien</li>
+                  <li>Créez votre portfolio et présence en ligne</li>
+                  <li>
+                    Inscrivez-vous sur notre plateforme pour trouver vos
+                    premières missions
+                  </li>
+                </ol>
+              </div>
+            </details>
+
+            <details class="faq-item">
+              <summary class="faq-question">
+                <h3>
+                  Quelles sont les technologies les plus demandées pour un
+                  freelance à Paris ?
+                </h3>
+              </summary>
+              <div class="faq-answer">
+                <p>
+                  Les technologies les plus recherchées par les entreprises
+                  parisiennes sont :
+                </p>
+                <ul>
+                  <li>
+                    <strong>Frontend</strong> : React, Vue.js, Angular,
+                    TypeScript
+                  </li>
+                  <li>
+                    <strong>Backend</strong> : Node.js, Python, PHP (Symfony,
+                    Laravel), Java, Go
+                  </li>
+                  <li>
+                    <strong>Mobile</strong> : React Native, Flutter, Swift,
+                    Kotlin
+                  </li>
+                  <li>
+                    <strong>DevOps</strong> : Docker, Kubernetes, AWS, GCP,
+                    CI/CD
+                  </li>
+                  <li>
+                    <strong>Data</strong> : Python, SQL, Spark, Machine Learning
+                  </li>
+                </ul>
+              </div>
+            </details>
+
+            <details class="faq-item">
+              <summary class="faq-question">
+                <h3>
+                  Pourquoi choisir un développeur freelance plutôt qu'une agence
+                  ?
+                </h3>
+              </summary>
+              <div class="faq-answer">
+                <p>
+                  Choisir un développeur freelance offre plusieurs avantages :
+                </p>
+                <ul>
+                  <li>
+                    <strong>Flexibilité</strong> : adaptation rapide aux besoins
+                    du projet
+                  </li>
+                  <li>
+                    <strong>Contact direct</strong> : pas d'intermédiaire,
+                    communication fluide
+                  </li>
+                  <li>
+                    <strong>Tarifs compétitifs</strong> : pas de marge d'agence
+                  </li>
+                  <li>
+                    <strong>Expertise pointue</strong> : spécialisation
+                    technique précise
+                  </li>
+                  <li>
+                    <strong>Engagement</strong> : implication personnelle dans
+                    la réussite du projet
+                  </li>
+                </ul>
+              </div>
+            </details>
+          </div>
+        </div>
+      </section>
+
+      <section class="cta-section" aria-labelledby="cta-title">
+        <div class="container">
+          <h2 id="cta-title">
+            Prêt à trouver votre développeur freelance à Paris ?
+          </h2>
+          <p>
+            Rejoignez la plateforme de référence pour les développeurs
+            freelances parisiens
+          </p>
+          <div class="cta-buttons">
+            <a href="/register/" class="btn btn-primary btn-large"
+              >Créer mon compte gratuit</a
+            >
+            <a href="/clients/" class="btn btn-secondary btn-large"
+              >Publier une mission</a
+            >
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer" role="contentinfo">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-brand">
+            <a href="/" class="logo">
+              <span class="logo-icon">{ }</span>
+              <span class="logo-text"
+                >Dev Freelance <strong>Paris</strong></span
+              >
+            </a>
+            <p>
+              La plateforme de référence pour connecter développeurs freelances
+              et entreprises à Paris.
+            </p>
+          </div>
+
+          <nav class="footer-nav" aria-label="Navigation freelances">
+            <h4>Freelances</h4>
+            <ul>
+              <li><a href="/freelances/">Devenir freelance</a></li>
+              <li><a href="/freelances/#missions">Trouver des missions</a></li>
+              <li>
+                <a href="/blog/tjm-developpeur-freelance-paris/"
+                  >Grille tarifaire TJM</a
+                >
+              </li>
+              <li><a href="/register/">S'inscrire</a></li>
+            </ul>
+          </nav>
+
+          <nav class="footer-nav" aria-label="Navigation clients">
+            <h4>Clients</h4>
+            <ul>
+              <li><a href="/clients/">Trouver un freelance</a></li>
+              <li><a href="/clients/#publier">Publier une mission</a></li>
+              <li>
+                <a href="/blog/recruter-developpeur-freelance-paris/"
+                  >Guide recrutement</a
+                >
+              </li>
+              <li><a href="/register/">Créer un compte</a></li>
+            </ul>
+          </nav>
+
+          <nav class="footer-nav" aria-label="Navigation ressources">
+            <h4>Ressources</h4>
+            <ul>
+              <li><a href="/blog/">Blog</a></li>
+              <li>
+                <a
+                  href="/blog/devenir-developpeur-freelance-paris-guide-complet/"
+                  >Guide freelance</a
+                >
+              </li>
+              <li><a href="/#faq-title">FAQ</a></li>
+              <li><a href="/contact/">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+
+        <div class="footer-bottom">
+          <p>&copy; 2026 Développeur Freelance Paris. Tous droits réservés.</p>
+          <nav class="footer-legal" aria-label="Liens légaux">
+            <a href="/mentions-legales/">Mentions légales</a>
+            <a href="/politique-confidentialite/"
+              >Politique de confidentialité</a
+            >
+            <a href="/cgv/">CGV</a>
+          </nav>
+        </div>
+      </div>
+    </footer>
+
+    <script src="/js/main.js" defer></script>
+  </body>
+</html>

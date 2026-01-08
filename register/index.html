@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex, nofollow" />
+    <meta
+      name="description"
+      content="Créez votre compte sur Développeur Freelance Paris - Freelance ou client, inscrivez-vous gratuitement."
+    />
+
+    <title>Inscription | Développeur Freelance Paris</title>
+
+    <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg" />
+
+    <link rel="stylesheet" href="/css/styles.css" />
+  </head>
+  <body>
+    <div class="auth-container">
+      <div class="auth-card">
+        <div class="auth-header">
+          <a
+            href="/"
+            class="logo"
+            style="justify-content: center; margin-bottom: var(--space-lg)"
+          >
+            <span class="logo-icon">{ }</span>
+            <span class="logo-text">Dev Freelance <strong>Paris</strong></span>
+          </a>
+          <h1>Créer un compte</h1>
+          <p>Rejoignez la communauté des développeurs freelances à Paris</p>
+        </div>
+
+        <form class="auth-form" action="#" method="POST">
+          <div class="form-group">
+            <label for="register-type">Je suis</label>
+            <select id="register-type" name="type" required>
+              <option value="">Sélectionnez...</option>
+              <option value="freelance">Développeur freelance</option>
+              <option value="client">Client / Entreprise</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="register-name">Nom complet</label>
+            <input
+              type="text"
+              id="register-name"
+              name="name"
+              required
+              placeholder="Jean Dupont"
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="register-email">Email professionnel</label>
+            <input
+              type="email"
+              id="register-email"
+              name="email"
+              required
+              placeholder="jean@exemple.com"
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="register-password">Mot de passe</label>
+            <input
+              type="password"
+              id="register-password"
+              name="password"
+              required
+              placeholder="Min. 8 caractères"
+              minlength="8"
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="register-password-confirm"
+              >Confirmer le mot de passe</label
+            >
+            <input
+              type="password"
+              id="register-password-confirm"
+              name="password_confirm"
+              required
+              placeholder="Confirmez votre mot de passe"
+            />
+          </div>
+
+          <div style="margin-bottom: var(--space-lg)">
+            <label
+              style="
+                display: flex;
+                align-items: flex-start;
+                gap: var(--space-sm);
+                font-size: var(--text-sm);
+                cursor: pointer;
+              "
+            >
+              <input
+                type="checkbox"
+                name="terms"
+                required
+                style="width: auto; margin-top: 4px"
+              />
+              <span
+                >J'accepte les <a href="/cgv/">conditions générales</a> et la
+                <a href="/politique-confidentialite/"
+                  >politique de confidentialité</a
+                ></span
+              >
+            </label>
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-full">
+            Créer mon compte
+          </button>
+        </form>
+
+        <div class="auth-divider">
+          <span>ou</span>
+        </div>
+
+        <button
+          class="btn btn-outline btn-full"
+          style="margin-bottom: var(--space-md)"
+        >
+          <span style="margin-right: var(--space-sm)">🔗</span> S'inscrire avec
+          LinkedIn
+        </button>
+
+        <button class="btn btn-outline btn-full">
+          <span style="margin-right: var(--space-sm)">🐙</span> S'inscrire avec
+          GitHub
+        </button>
+
+        <div class="auth-footer">
+          <p>Déjà inscrit ? <a href="/login/">Se connecter</a></p>
+        </div>
+      </div>
+    </div>
+
+    <script src="/js/main.js" defer></script>
+  </body>
+</html>

@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Contactez l'équipe Développeur Freelance Paris - Une question, une suggestion, un partenariat ? Nous sommes à votre écoute."
+    />
+    <meta name="robots" content="index, follow" />
+    <link
+      rel="canonical"
+      href="https://developpeurfreelanceparis.dev/contact/"
+    />
+
+    <title>Contact | Développeur Freelance Paris</title>
+
+    <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg" />
+
+    <link rel="stylesheet" href="/css/styles.css" />
+  </head>
+  <body>
+    <header class="header" role="banner">
+      <nav
+        class="nav container"
+        role="navigation"
+        aria-label="Navigation principale"
+      >
+        <a
+          href="/"
+          class="logo"
+          aria-label="Accueil Développeur Freelance Paris"
+        >
+          <span class="logo-icon">{ }</span>
+          <span class="logo-text">Dev Freelance <strong>Paris</strong></span>
+        </a>
+
+        <button class="nav-toggle" aria-label="Menu" aria-expanded="false">
+          <span class="hamburger"></span>
+        </button>
+
+        <ul class="nav-menu">
+          <li><a href="/" class="nav-link">Accueil</a></li>
+          <li><a href="/freelances/" class="nav-link">Freelances</a></li>
+          <li><a href="/clients/" class="nav-link">Clients</a></li>
+          <li><a href="/blog/" class="nav-link">Blog</a></li>
+          <li>
+            <a href="/login/" class="nav-link nav-link--outline">Connexion</a>
+          </li>
+          <li>
+            <a href="/register/" class="nav-link nav-link--primary"
+              >Inscription</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main role="main">
+      <section class="page-header">
+        <div class="container">
+          <h1>Contactez-nous</h1>
+          <p>Une question ? Une suggestion ? Nous sommes là pour vous aider.</p>
+        </div>
+      </section>
+
+      <section class="contact-section">
+        <div class="container">
+          <div class="contact-wrapper">
+            <div class="contact-info">
+              <h2>Restons en contact</h2>
+              <p>
+                Que vous soyez développeur freelance ou client à la recherche de
+                talents, notre équipe est disponible pour répondre à vos
+                questions.
+              </p>
+
+              <div style="margin-top: var(--space-2xl)">
+                <div
+                  style="
+                    display: flex;
+                    align-items: center;
+                    gap: var(--space-md);
+                    margin-bottom: var(--space-lg);
+                  "
+                >
+                  <span style="font-size: 1.5rem">📧</span>
+                  <div>
+                    <strong>Email</strong>
+                    <p style="margin: 0; color: var(--text-secondary)">
+                      contact@developpeurfreelanceparis.dev
+                    </p>
+                  </div>
+                </div>
+
+                <div
+                  style="
+                    display: flex;
+                    align-items: center;
+                    gap: var(--space-md);
+                    margin-bottom: var(--space-lg);
+                  "
+                >
+                  <span style="font-size: 1.5rem">📍</span>
+                  <div>
+                    <strong>Localisation</strong>
+                    <p style="margin: 0; color: var(--text-secondary)">
+                      Paris, France
+                    </p>
+                  </div>
+                </div>
+
+                <div
+                  style="
+                    display: flex;
+                    align-items: center;
+                    gap: var(--space-md);
+                  "
+                >
+                  <span style="font-size: 1.5rem">⏰</span>
+                  <div>
+                    <strong>Réponse</strong>
+                    <p style="margin: 0; color: var(--text-secondary)">
+                      Sous 24h en jours ouvrés
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div style="margin-top: var(--space-2xl)">
+                <h3>Suivez-nous</h3>
+                <div
+                  style="
+                    display: flex;
+                    gap: var(--space-md);
+                    margin-top: var(--space-md);
+                  "
+                >
+                  <a
+                    href="#"
+                    style="
+                      display: flex;
+                      align-items: center;
+                      justify-content: center;
+                      width: 40px;
+                      height: 40px;
+                      background: var(--bg-gray);
+                      border-radius: var(--radius-md);
+                    "
+                    aria-label="LinkedIn"
+                    >🔗</a
+                  >
+                  <a
+                    href="#"
+                    style="
+                      display: flex;
+                      align-items: center;
+                      justify-content: center;
+                      width: 40px;
+                      height: 40px;
+                      background: var(--bg-gray);
+                      border-radius: var(--radius-md);
+                    "
+                    aria-label="Twitter"
+                    >🐦</a
+                  >
+                  <a
+                    href="#"
+                    style="
+                      display: flex;
+                      align-items: center;
+                      justify-content: center;
+                      width: 40px;
+                      height: 40px;
+                      background: var(--bg-gray);
+                      border-radius: var(--radius-md);
+                    "
+                    aria-label="GitHub"
+                    >🐙</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <form
+              class="contact-form"
+              action="#"
+              method="POST"
+              id="contact-page-form"
+            >
+              <div class="form-group">
+                <label for="contact-subject">Sujet</label>
+                <select id="contact-subject" name="subject" required>
+                  <option value="">Sélectionnez un sujet...</option>
+                  <option value="freelance">Je suis freelance</option>
+                  <option value="client">Je suis client</option>
+                  <option value="partenariat">
+                    Proposition de partenariat
+                  </option>
+                  <option value="presse">Demande presse/média</option>
+                  <option value="bug">Signalement de bug</option>
+                  <option value="autre">Autre</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="contact-name">Nom complet</label>
+                <input
+                  type="text"
+                  id="contact-name"
+                  name="name"
+                  required
+                  placeholder="Jean Dupont"
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="contact-email">Email</label>
+                <input
+                  type="email"
+                  id="contact-email"
+                  name="email"
+                  required
+                  placeholder="jean@exemple.com"
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="contact-message">Message</label>
+                <textarea
+                  id="contact-message"
+                  name="message"
+                  rows="5"
+                  required
+                  placeholder="Décrivez votre demande..."
+                ></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-full">
+                Envoyer le message
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <section class="faq-section" style="background: var(--bg-white)">
+        <div class="container">
+          <h2 class="section-title">Questions fréquentes</h2>
+
+          <div class="faq-list" style="max-width: 800px; margin: 0 auto">
+            <details class="faq-item">
+              <summary class="faq-question">
+                <h3>Comment créer un compte ?</h3>
+              </summary>
+              <div class="faq-answer">
+                <p>
+                  Rendez-vous sur notre
+                  <a href="/register/">page d'inscription</a> et remplissez le
+                  formulaire. L'inscription est gratuite et ne prend que 2
+                  minutes.
+                </p>
+              </div>
+            </details>
+
+            <details class="faq-item">
+              <summary class="faq-question">
+                <h3>Comment publier une mission ?</h3>
+              </summary>
+              <div class="faq-answer">
+                <p>
+                  Une fois inscrit en tant que client, vous pouvez publier une
+                  mission depuis votre espace ou directement sur la page
+                  <a href="/clients/#publier">Clients</a>.
+                </p>
+              </div>
+            </details>
+
+            <details class="faq-item">
+              <summary class="faq-question">
+                <h3>L'inscription est-elle gratuite ?</h3>
+              </summary>
+              <div class="faq-answer">
+                <p>
+                  Oui, l'inscription est totalement gratuite pour les freelances
+                  comme pour les clients.
+                </p>
+              </div>
+            </details>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer" role="contentinfo">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-brand">
+            <a href="/" class="logo">
+              <span class="logo-icon">{ }</span>
+              <span class="logo-text"
+                >Dev Freelance <strong>Paris</strong></span
+              >
+            </a>
+            <p>
+              La plateforme de référence pour connecter développeurs freelances
+              et entreprises à Paris.
+            </p>
+          </div>
+
+          <nav class="footer-nav">
+            <h4>Freelances</h4>
+            <ul>
+              <li><a href="/freelances/">Devenir freelance</a></li>
+              <li><a href="/freelances/#missions">Trouver des missions</a></li>
+            </ul>
+          </nav>
+
+          <nav class="footer-nav">
+            <h4>Clients</h4>
+            <ul>
+              <li><a href="/clients/">Trouver un freelance</a></li>
+              <li><a href="/clients/#publier">Publier une mission</a></li>
+            </ul>
+          </nav>
+
+          <nav class="footer-nav">
+            <h4>Ressources</h4>
+            <ul>
+              <li><a href="/blog/">Blog</a></li>
+              <li><a href="/contact/">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+
+        <div class="footer-bottom">
+          <p>&copy; 2026 Développeur Freelance Paris. Tous droits réservés.</p>
+          <nav class="footer-legal">
+            <a href="/mentions-legales/">Mentions légales</a>
+            <a href="/politique-confidentialite/"
+              >Politique de confidentialité</a
+            >
+            <a href="/cgv/">CGV</a>
+          </nav>
+        </div>
+      </div>
+    </footer>
+
+    <script src="/js/main.js" defer></script>
+  </body>
+</html>

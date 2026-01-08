@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 800" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="heroGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e3a5f;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#2563eb;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1d4ed8;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="accentGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#3b82f6;stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:#8b5cf6;stop-opacity:0.3" />
+    </linearGradient>
+    <pattern id="gridPattern" width="60" height="60" patternUnits="userSpaceOnUse">
+      <path d="M 60 0 L 0 0 0 60" fill="none" stroke="rgba(255,255,255,0.05)" stroke-width="1"/>
+    </pattern>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <rect width="100%" height="100%" fill="url(#heroGradient)"/>
+  <rect width="100%" height="100%" fill="url(#gridPattern)"/>
+  
+  <circle cx="150" cy="150" r="300" fill="rgba(59,130,246,0.1)"/>
+  <circle cx="1800" cy="600" r="400" fill="rgba(139,92,246,0.1)"/>
+  <circle cx="960" cy="400" r="250" fill="rgba(16,185,129,0.05)"/>
+  
+  <g opacity="0.1">
+    <circle cx="200" cy="100" r="5" fill="#fff"/>
+    <circle cx="400" cy="200" r="3" fill="#fff"/>
+    <circle cx="600" cy="80" r="4" fill="#fff"/>
+    <circle cx="800" cy="150" r="3" fill="#fff"/>
+    <circle cx="1000" cy="50" r="5" fill="#fff"/>
+    <circle cx="1200" cy="180" r="4" fill="#fff"/>
+    <circle cx="1400" cy="100" r="3" fill="#fff"/>
+    <circle cx="1600" cy="200" r="5" fill="#fff"/>
+    <circle cx="1800" cy="80" r="4" fill="#fff"/>
+    <circle cx="300" cy="350" r="3" fill="#fff"/>
+    <circle cx="500" cy="450" r="4" fill="#fff"/>
+    <circle cx="700" cy="380" r="5" fill="#fff"/>
+    <circle cx="900" cy="500" r="3" fill="#fff"/>
+    <circle cx="1100" cy="420" r="4" fill="#fff"/>
+    <circle cx="1300" cy="550" r="5" fill="#fff"/>
+    <circle cx="1500" cy="400" r="3" fill="#fff"/>
+    <circle cx="1700" cy="480" r="4" fill="#fff"/>
+    <circle cx="100" cy="600" r="5" fill="#fff"/>
+    <circle cx="350" cy="700" r="3" fill="#fff"/>
+    <circle cx="550" cy="650" r="4" fill="#fff"/>
+    <circle cx="750" cy="720" r="3" fill="#fff"/>
+    <circle cx="950" cy="680" r="5" fill="#fff"/>
+    <circle cx="1150" cy="750" r="4" fill="#fff"/>
+    <circle cx="1350" cy="690" r="3" fill="#fff"/>
+    <circle cx="1550" cy="730" r="5" fill="#fff"/>
+    <circle cx="1750" cy="670" r="4" fill="#fff"/>
+  </g>
+  
+  <g filter="url(#glow)" opacity="0.15">
+    <path d="M0 600 Q 480 500 960 600 T 1920 600 L 1920 800 L 0 800 Z" fill="url(#accentGradient)"/>
+    <path d="M0 650 Q 480 550 960 650 T 1920 650 L 1920 800 L 0 800 Z" fill="rgba(255,255,255,0.05)"/>
+  </g>
+  
+  <g opacity="0.08">
+    <text x="100" y="250" font-family="monospace" font-size="14" fill="#fff">&lt;code&gt;</text>
+    <text x="1700" y="350" font-family="monospace" font-size="14" fill="#fff">&lt;/dev&gt;</text>
+    <text x="300" y="550" font-family="monospace" font-size="12" fill="#fff">{ freelance }</text>
+    <text x="1500" y="200" font-family="monospace" font-size="12" fill="#fff">// Paris</text>
+    <text x="800" y="700" font-family="monospace" font-size="14" fill="#fff">function()</text>
+  </g>
+  
+  <g opacity="0.06">
+    <rect x="50" y="400" width="80" height="4" rx="2" fill="#fff"/>
+    <rect x="50" y="420" width="120" height="4" rx="2" fill="#fff"/>
+    <rect x="50" y="440" width="60" height="4" rx="2" fill="#fff"/>
+    
+    <rect x="1750" y="500" width="100" height="4" rx="2" fill="#fff"/>
+    <rect x="1750" y="520" width="70" height="4" rx="2" fill="#fff"/>
+    <rect x="1750" y="540" width="90" height="4" rx="2" fill="#fff"/>
+  </g>
+</svg>
